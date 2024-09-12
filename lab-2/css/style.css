@@ -1,0 +1,36 @@
+/** Step one **/
+
+/* font one */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font two */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+/** Step two **/
+h1,h2,h3,h4,h5,h6{
+    font-family: "Libre Baskerville", sans-serif;
+}
+
+/** Step three **/
+h1{
+    font-size: 46px;
+    letter-spacing: 2.5px;
+    text-align: center;
+    color: teal;
+}
+
+/** Step four **/
+p,ul,a{
+    font-family: "Montserrat", sans-serif;
+}
+
+/** Step five **/
+p > span{
+    color: red;
+}
+
+/** Step six **/
+h3{
+    font-size: 2.5em;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+}
